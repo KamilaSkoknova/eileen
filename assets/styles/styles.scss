@@ -1,0 +1,82 @@
+$yellow-light: rgb(255, 255, 220);
+
+p {
+    color: white;
+    font-family: 'Courgette', cursive;
+    font-size: 1.2rem;
+}
+
+img {
+    display: none;
+}
+
+.background-pic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0;
+}
+
+.bi-arrow-right-square-fill {
+    position: relative;
+    bottom: 80px;
+    left: 50px;
+    color: $yellow-light;
+    font-size: 30px;
+    display: none;
+}
+
+#magnet {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("../img/portal.jpg") fixed top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    h1 {
+        font-size: 4rem;
+        color: white;
+        font-family: 'Courgette', cursive;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+        color: $yellow-light;
+    }
+}
+
+#dedina {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("../img/dedina.jpg") fixed top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#hvezdaren {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("../img/hvezdaren.jpg") fixed top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#portal {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("../img/portal.jpg") fixed top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#tim {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("../img/tim.jpg") fixed top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#timova-lod {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("../img/timova-lod.jpg") fixed top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#eileen {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("../img/eileen.jpg") fixed top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
